@@ -15,7 +15,7 @@ make
 - [ ] Add proper file handling:
   - [ ] Do not keep files in memory, leave sending files to kernel,
   - [ ] Check if file is in working directory,
-  - [ ] Add handling of special characters in paths (e.g.: spaces),
-- [ ] Implement http_checks,
+  - [ ] Add handling of special characters in paths (e.g., spaces),
+- [ ] Implement `src/http_checks.cpp`,
 - [ ] Implement handling of partial data,
 - [ ] Fix unnecessary closing of connections.
