@@ -6,7 +6,10 @@
 constexpr int PORT = 50005;
 const std::string WORKING_DIR = "./public_html";
 
-constexpr bool DEBUG = false;
+#ifndef DEBUG
+#define DEBUG 0
+#endif
+
 constexpr int MAX_QUEUE_LENGTH = 100000;
 constexpr int WORKERS = 8;
 
